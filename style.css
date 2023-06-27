@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Open+Sans:ital,wght@0,400;1,700&family=Roboto:wght@100;300;500&family=Work+Sans:wght@100;200;400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:'Manrope',sans-serif;
+  background-color: hsl(217, 23%, 16%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.advice-card{
+  background-color: hsl(217, 19%, 24%);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 13px;
+  position: relative;
+}
+.advice-id{
+color: hsl(150, 100%, 66%) ;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 3px;
+padding-bottom: 14px;
+}
+.advice-text{
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1.2px;
+  margin-bottom: 20px;
+}
+.divder-img{
+  width: 90%;
+  display: block;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.generate-btn{
+  position: absolute;
+  left: 50%;
+  bottom: -31px;
+  transform: translateX(-50%);
+background-color:  hsl(150, 100%, 66%); 
+border: none;
+padding: 15px 17px;
+border-radius: 50%;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@media only screen and (max-width:425px){
+  .advice-card{
+    margin: 0 12px;
+    padding: 20px;
+  }
+}
